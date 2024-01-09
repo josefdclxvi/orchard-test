@@ -14,7 +14,8 @@
     align-items: center;
   }
 }
-
+  
+.all-the-latest-container,
 .answers-body-needs-container {
   --col-width: 32%;
   --default-gap: 2%;
