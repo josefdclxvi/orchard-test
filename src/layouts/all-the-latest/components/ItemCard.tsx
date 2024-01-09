@@ -20,12 +20,10 @@ const ItemCard = (props: ItemCardProps): ReactElement => {
         <img src={`/img/component-02/${thumbnail}`} alt={thumbnail} />
         <figcaption>
           <h2>{title}</h2>
-          <>
-            <p
-              className="content"
-              dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(body) }}
-            />
-          </>
+          <p
+            className="content"
+            dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(body) }}
+          />
         </figcaption>
         <a href={url}>read more</a>
       </figure>
