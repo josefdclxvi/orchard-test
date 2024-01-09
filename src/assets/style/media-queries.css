@@ -1,0 +1,318 @@
+/* Default styles for all devices */
+
+@media only screen and (max-width: 639px) {
+  .main .all-the-latest-container,
+  .main .answers-body-needs-container {
+    width: 95vw;
+    height: auto;
+    min-height: 50rem;
+    
+    & .wrapper {
+      &._diff {
+        flex-direction: column-reverse;
+        margin: 3rem auto 15rem;
+      }
+
+      & > div {
+        width: 100%;
+        height: auto;
+        min-height: 18rem;
+
+        &._left {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: normal;
+          row-gap: 0.5rem;
+        }
+  
+        &._right {
+          & article h1 {
+            font-size: 1.55rem;
+          }
+          & article hr {
+            margin: 0.5rem auto 2rem;
+          }
+
+          & p.note {
+            margin-top: 1rem;
+          }
+  
+          & p, & p * {
+            font-size: 1rem;
+          }
+        }
+
+        &.card {
+          & figcaption {
+            height: 10rem;
+          }
+        }
+      }
+
+      & header {
+        margin-bottom: 1rem;
+
+        & h1 {
+          font-size: 1.75rem;
+        }
+      }
+
+      & figure {
+        & h3 {
+          font-size: 1.4rem;
+        }
+      }
+
+      & p.content {
+        & p, & p * {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+  .main .all-the-latest-container,
+  .main .answers-body-needs-container {
+    width: 70vw;
+    height: auto;
+    min-height: 50rem;
+    
+    & .wrapper {
+      &._diff {
+        flex-direction: column-reverse;
+        margin: 3rem auto 15rem;
+      }
+
+      & > div {
+        width: 100%;
+        height: auto;
+        min-height: 18rem;
+
+        &._left {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: normal;
+          row-gap: 0.5rem;
+        }
+  
+        &._right {
+          & article h1 {
+            font-size: 1.55rem;
+          }
+          & article hr {
+            margin: 0.5rem auto 2rem;
+          }
+
+          & p.note {
+            margin-top: 1rem;
+          }
+  
+          & p, & p * {
+            font-size: 1rem;
+          }
+        }
+      }
+
+      & header {
+        margin-bottom: 1rem;
+
+        & h1 {
+          font-size: 1.75rem;
+        }
+      }
+
+      & figure {
+        & h3 {
+          font-size: 1.4rem;
+        }
+      }
+
+      & p.content {
+        & p, & p * {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .main .all-the-latest-container,
+  .main .answers-body-needs-container {
+    width: 95vw;
+    min-height: 50rem;
+    
+    & .wrapper {
+      & > div {
+        height: auto;
+        min-height: 22rem;
+  
+        &._right {
+          & article h1 {
+            font-size: 1rem;
+          }
+          & article hr {
+            margin: 0.5rem auto 1rem;
+          }
+  
+          & p, & p * {
+            font-size: 0.75rem;
+          }
+        }
+      }
+
+      & .card {
+        width: 49%;
+      }
+
+      & header {
+        margin-bottom: 1rem;
+
+        & h1 {
+          font-size: 1.5rem;
+        }
+      }
+
+      & figure {
+        & h3 {
+          font-size: 1rem;
+        }
+      }
+
+      & p.content {
+        & p, & p * {
+          font-size: 0.95rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .main .all-the-latest-container,
+  .main .answers-body-needs-container {
+    width: 88vw;
+    min-height: 50rem;
+    
+    & .wrapper {
+      & > div {
+        height: auto;
+        min-height: 28rem;
+  
+        &._right {
+          & article h1 {
+            font-size: 1.2rem;
+          }
+  
+          & p, & p * {
+            font-size: 0.9rem;
+          }
+        }
+      }
+
+      & header {
+        margin-bottom: 1rem;
+
+        & h1 {
+          font-size: 2rem;
+        }
+      }
+
+      & figure {
+        & h3 {
+          font-size: 0.95rem;
+        }
+      }
+
+      & p.content {
+        & p, & p * {
+          font-size: 0.95rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+  .main .all-the-latest-container,
+  .main .answers-body-needs-container {
+    min-height: 50rem;
+    
+    & .wrapper {
+      & > div {
+        height: auto;
+        min-height: 28rem;
+  
+        &._right {
+          & article h1 {
+            font-size: 1.35rem;
+          }
+  
+          & p, & p * {
+            font-size: 0.9rem;
+          }
+
+          & p.note {
+            margin-top: 1rem;
+          }
+        }
+      }
+
+      & header {
+        margin-bottom: 1rem;
+
+        & h1 {
+          font-size: 2rem;
+        }
+      }
+
+      & figure {
+        & h3 {
+          font-size: 0.95rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2559px) {
+  .main .all-the-latest-container,
+  .main .answers-body-needs-container {
+    min-height: 60rem;
+
+    & .wrapper > div {
+      height: 32.5rem;
+  
+      &._right {
+        & p.note {
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .all-the-latest-container,
+  .answers-body-needs-container {
+    width: 50vw;
+
+    & .wrapper > div {  
+      &._right {
+        & p.note {
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main .all-the-latest-container .card figure a {
+    font-size: 0.8rem;
+  }
+}

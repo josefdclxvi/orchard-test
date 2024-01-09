@@ -24,6 +24,10 @@
     animation: fadeOut 500ms 1;
     display: none;
   }
+
+  & .modal-container {
+    transform: scale(0.75);
+  }
 }
 
 ._error {
