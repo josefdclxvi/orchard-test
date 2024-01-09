@@ -14,7 +14,7 @@ const AllTheLatest = (): ReactElement => {
           </h1>
         </header>
         {allTheLatest.data.map((item) => {
-          return <ItemCard key={item.title} {...item} />;
+          return <ItemCard key={item.id} {...item} />;
         })}
       </div>
     </div>

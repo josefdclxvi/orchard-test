@@ -1,20 +1,23 @@
 {
   "data": [
     {
+      "id": "aeg-1",
       "title": "summer lunch menu by mark best",
-      "body": "<p><strong>aeg</strong>ambassador <strong>mark best</strong>'s <strong>summer eats</strong> are guaranteed to help you make the most of the warmer weather andentertaining at home.</p>",
+      "body": "<p><strong class=\"uppercase\">aeg</strong> ambassador <strong class=\"capitalize\">mark best</strong>'s <strong  class=\"normal\">summer eats</strong> are guaranteed to help you make the most of the warmer weather and entertaining at home.</p>",
       "thumbnail": "Image-01.jpg",
       "url": "#"
     },
     {
+      "id": "aeg-2",
       "title": "a traditional christmas eve, mark best style",
-      "body": "<p>one of <strong>australia's best chefs</strong> and <strong>aeg</strong> ambassador, <strong>mark best</strong>, shares his favourite <strong>christmas eve menu</strong> which is sure to impress your guests .</p>",
+      "body": "<p>one of <strong>Australia's best chefs</strong> and <strong class=\"uppercase\">aeg</strong> ambassador, <strong class=\"capitalize\">mark best</strong>, shares his favourite <strong class=\"capitalize\">christmas eve menu</strong> which is sure to impress your guests .</p>",
       "thumbnail": "Image-02.jpg",
       "url": "#"
     },
     {
+      "id": "aeg-3",
       "title": "taking taste further",
-      "body": "<p>this exclusive cookbook gives you all the know-how you need.</p><p>we've designed it to make sure you get the most out of our products - and the best out of your food.</p>",
+      "body": "<p>this exclusive cookbook gives you all the know-how you need. We've designed it to make sure you get the most out of our products - and the best out of your food.</p>",
       "thumbnail": "Image-03.jpg",
       "url": "#"
     }
