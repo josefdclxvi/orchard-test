@@ -28,7 +28,6 @@ const Description = (): ReactElement => {
         <br />
         <p className="note">
           <strong className="_error">be mindful</strong>
-          <br />
           <span>
             sourcing local or organic food is a good way to start being more
             mindful about what you're cooking and eating.

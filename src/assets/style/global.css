@@ -1,3 +1,8 @@
 :root {
   --default-space: 20px;
+  --bg-color: #0e1414;
+  --font-color-dark: #fff;
+  --font-color: #ccc;
+  --font-color-dark: #666;
+  --error: #cf1430;
 }

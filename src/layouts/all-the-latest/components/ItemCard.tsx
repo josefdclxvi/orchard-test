@@ -1,10 +1,11 @@
-import type { ReactElement } from "react";
+import type { ReactElement, MouseEvent } from "react";
 
 import DOMPurify from "dompurify";
 
 import { Card } from "../../../components";
 
 interface ItemCardProps {
+  id: string;
   title: string;
   body: string | Node;
   url: string;
@@ -12,20 +13,28 @@ interface ItemCardProps {
 }
 
 const ItemCard = (props: ItemCardProps): ReactElement => {
-  const { title, body, url, thumbnail } = props;
+  const { id, title, body, url, thumbnail } = props;
+
+  const handleClick = (event: MouseEvent<HTMLAnchorElement>) => {
+    const { id } = event.currentTarget;
+    console.log("id = ", id);
+  };
 
   return (
     <Card>
       <figure>
         <img src={`/img/component-02/${thumbnail}`} alt={thumbnail} />
+        <div className="border-line" />
         <figcaption>
-          <h2>{title}</h2>
+          <h3>{title}</h3>
           <p
             className="content"
             dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(body) }}
           />
         </figcaption>
-        <a href={url}>read more</a>
+        <a href={url} id={id} onClick={(event) => handleClick(event)}>
+          read more
+        </a>
       </figure>
     </Card>
   );

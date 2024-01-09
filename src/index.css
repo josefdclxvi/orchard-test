@@ -22,5 +22,8 @@ button, a, input {
   background-color: unset;
   margin: unset;
   padding: unset;
-  display: block;
+}
+
+a {
+  text-decoration: unset;
 }
