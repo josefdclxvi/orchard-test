@@ -1,4 +1,6 @@
 .main .all-the-latest-container {
+  padding-bottom: 2.5rem;
+
   & * {
     font-family: OpenSans Regular,  sans-serif;
     font-weight: 100;
@@ -17,8 +19,13 @@
   }
 
   & .card {
+    & figure * {
+      transition: all 0.2s;
+    }
+
     & figure {
       width: 100%;
+      padding: 0 0 1rem;
 
       & img {
         width: 100%;
@@ -35,6 +42,7 @@
 
       & figcaption {
         height: 8rem;
+        margin-bottom: 1rem;
       }
 
       & h3 {
