@@ -25,7 +25,6 @@ const Description = (): ReactElement => {
           </span>
         </p>
         <br />
-        <br />
         <p className="note">
           <strong className="_error">be mindful</strong>
           <span>
