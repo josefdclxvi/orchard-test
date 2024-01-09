@@ -1,7 +1,13 @@
-function App() {
+import type { ReactElement } from "react";
+
+import { AnswerBodyNeeds } from "./layouts";
+
+function App(): ReactElement {
   return (
     <div className="main">
-      <div>App</div>
+      <div>
+        <AnswerBodyNeeds />
+      </div>
     </div>
   );
 }
