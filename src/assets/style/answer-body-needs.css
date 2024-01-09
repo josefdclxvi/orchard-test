@@ -54,9 +54,15 @@
         }
       }
 
-      & p.note > span {
-        color: #fff !important;
-        font-weight: bold;
+      & p.note {
+        & span {
+          color: #fff !important;
+          font-weight: bold;
+        }
+        & ._error {
+          display: block;
+          margin-bottom: 0.5rem;
+        }
       }
     }
   }
