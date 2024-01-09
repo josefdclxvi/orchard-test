@@ -1,12 +1,13 @@
 import type { ReactElement } from "react";
 
-import { AnswerBodyNeeds } from "./layouts";
+import { AllTheLatest, AnswerBodyNeeds } from "./layouts";
 
 function App(): ReactElement {
   return (
     <div className="main">
       <div>
         <AnswerBodyNeeds />
+        <AllTheLatest />
       </div>
     </div>
   );
