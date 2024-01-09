@@ -1,0 +1,25 @@
+@import "./assets/style/font.css";
+@import "./assets/style/main.css";
+@import "./assets/style/answer-body-needs.css";
+@import "./assets/style/common-style.css";
+@import "./assets/style/global.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "OpensSans Regular", sans-serif;
+  color: #ccc;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+button, a, input {
+  border: unset;
+  background-color: unset;
+  margin: unset;
+  padding: unset;
+  display: block;
+}
