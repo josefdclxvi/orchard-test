@@ -14,9 +14,9 @@ const Description = (): ReactElement => {
             bodies.
           </span>{" "}
           <span>
-            author Mark Schatzer believes our body naturally develops an
-            appetite for the foods and nutrients it needs to be healthy, but
-            that artificial flavourings are getting in the way.
+            author <strong>Mark Schatzer</strong> believes our body naturally
+            develops an appetite for the foods and nutrients it needs to be
+            healthy, but that artificial flavourings are getting in the way.
           </span>{" "}
           <span>
             this can be reversed by focusing on high-quality ingredients and
