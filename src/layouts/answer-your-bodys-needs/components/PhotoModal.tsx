@@ -2,6 +2,8 @@ import type { ReactElement } from "react";
 
 import { useState } from "react";
 
+import { Modal } from "../../../components";
+
 interface ImgInit {
   src: string;
   openSrc: string;
@@ -35,8 +37,6 @@ const init: ImgInit = {
 const PhotoModal = (): ReactElement => {
   const [img, setImg] = useState<ImgInit>(init);
 
-  console.log(img);
-
   return (
     <div className="_left">
       {images.map((img) => {
@@ -46,6 +46,12 @@ const PhotoModal = (): ReactElement => {
           </button>
         );
       })}
+      <Modal
+        {...img}
+        type="img"
+        isOpen={img.src !== ""}
+        closeMoodal={() => setImg(init)}
+      />
     </div>
   );
 };
