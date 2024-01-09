@@ -42,6 +42,10 @@
         & span {
           display: inline-block;
           text-transform: lowercase;
+
+          & > strong {
+            text-transform: capitalize;
+          }
         }
         & span::first-letter {
           text-transform: uppercase;
