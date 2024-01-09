@@ -21,7 +21,7 @@ const ItemCard = (props: ItemCardProps): ReactElement => {
   };
 
   return (
-    <Card>
+    <Card className="__fx">
       <figure>
         <img src={`/img/component-02/${thumbnail}`} alt={thumbnail} />
         <div className="border-line" />
